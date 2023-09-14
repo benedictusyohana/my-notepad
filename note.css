@@ -4,3 +4,39 @@ body {
     margin: 0;
     padding: 0;
 }
+.notepad {
+    width:80%;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0 0.1);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 100px;
+    height: 300px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    resize: none;
+}
+
+.controls {
+    text-align: right;
+    margin-top: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #0074d9;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+
+}
